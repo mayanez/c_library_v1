@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mavlink>
+	<include>common.xml</include>
+	<messages>
+		<message id="180" name="YOLO">
+			<description>YOLO Logging information</description>
+			<field type="int32_t" name="skip_en">If cycle was skipped</field>
+			<field type="int32_t" name="skip_count">At what cycle to skip</field>
+		</message>
+	</messages>
+</mavlink>
